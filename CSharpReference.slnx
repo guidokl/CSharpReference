@@ -1,0 +1,41 @@
+<Solution>
+  <Folder Name="/00_Lab/">
+    <Project Path="L00_Playground/L00_Playground.csproj" />
+  </Folder>
+  <Folder Name="/01_Basics/">
+    <Project Path="B01_IndexOfAndSubstring/B01_IndexOfAndSubstring.csproj" Id="287baf5d-56c6-4ca8-90b8-e712862b1e94" />
+    <Project Path="B02_LastIndexOfAndSubstring/B02_LastIndexOfAndSubstring.csproj" Id="b10a0430-097a-4a54-a087-83ea6ef42041" />
+    <Project Path="B03_IndexOfAny/B03_IndexOfAny.csproj" Id="3bfe484d-23da-4d02-9cff-b96800578252" />
+    <Project Path="B04_RemoveAndReplace/B04_RemoveAndReplace.csproj" Id="20b1129a-28e0-4b01-ad51-7e5b1ef53722" />
+    <Project Path="B05_MethodOverloading/B05_MethodOverloading.csproj" Id="73ceb8a2-62b2-477b-bc1c-ae11095f4ed2" />
+  </Folder>
+  <Folder Name="/02_OOP/">
+    <Project Path="P01_StaticClassesAndMethods/P01_StaticClassesAndMethods.csproj" Id="c079b73b-87a3-4fee-86d7-fa6264cd8a52" />
+    <Project Path="P02_StaticClassAttributes/P02_StaticClassAttributes.csproj" Id="83aa6ce6-c5cc-4ea5-80d3-01043faa7f26" />
+    <Project Path="P03_GettersAndSetters/P03_GettersAndSetters.csproj" Id="00b3a73b-930f-4d51-b553-b945f14a4523" />
+    <Project Path="P04_Inheritance/P04_Inheritance.csproj" Id="e36b0f94-06ea-41ca-8a91-b05227919241" />
+    <Project Path="P05_Polymorphism/P05_Polymorphism.csproj" Id="a1e97414-479f-4eaf-bae3-b2dba780a11d" />
+    <Project Path="P06_Polymorphism-BankAccount/P06_Polymorphism-BankAccount.csproj" Id="1dc27820-52af-4439-9ca8-c33a8cd75623" />
+    <Project Path="P07_AbstractOrVirtualMethod/P07_AbstractOrVirtualMethod.csproj" Id="664dbf71-55c0-44de-8222-b74acaa971fa" />
+    <Project Path="P08_ConstructorChaining/P08_ConstructorChaining.csproj" Id="99875fdc-f0a8-4d5e-a8aa-9cc7389133dd" />
+    <Project Path="P10_Interfaces/P10_Interfaces.csproj" Id="34a6d4e3-33ce-4d79-9df3-3db7c79bb026" />
+  </Folder>
+  <Folder Name="/03_DebuggingAndExceptions/">
+    <Project Path="D01_Exceptions/D01_Exceptions.csproj" Id="6e82a1ac-a2e2-44bc-a0e8-545f9c26e038" />
+    <Project Path="D02_ExceptionsAndThrow/D02_ExceptionsAndThrow.csproj" Id="8c7f7c8e-812a-4a17-8ae3-c3aa2c65ec84" />
+  </Folder>
+  <Folder Name="/04_Algorithms/">
+    <Project Path="A01_RecursiveSum/A01_RecursiveSum.csproj" />
+  </Folder>
+  <Folder Name="/05_Snippets/" />
+  <Folder Name="/06_Misc/" />
+  <Folder Name="/07_ProCSharp/">
+    <Project Path="C3.1_Args_and_EnvDetails/C3.1_Args_and_EnvDetails.csproj" />
+    <Project Path="C3.2_BasicConsoleIO/C3.2_BasicConsoleIO.csproj" />
+    <Project Path="C3.3_FormattingNumericalData/C3.3_FormattingNumericalData.csproj" />
+    <Project Path="C3.4_BasicDataTypes/C3.4_BasicDataTypes.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+</Solution>
