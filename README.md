@@ -10,7 +10,7 @@ This repository serves as a reference guide and practice ground for C# developme
 
 ## 📁 Project Structure
 
-The solution is organized into numbered folders for easy navigation:
+In Visual Studio organized into virtual solution folders for easy navigation:
 
 | Folder | Category | Description |
 |--------|----------|-------------|
@@ -89,13 +89,6 @@ The solution is organized into numbered folders for easy navigation:
 
 - **Target Framework:** .NET 10
 - **Language Version:** C# (latest)
-- **Features Used:**
-  - Top-Level Statements
-  - Pattern Matching (`is`, `or`)
-  - Expression-bodied Members
-  - Nullable Reference Types
-  - `Span<T>` and `ReadOnlySpan<T>`
-  - Collection Expressions (`[1, 2, 3]`)
 
 ---
 
@@ -122,6 +115,15 @@ Example:
 
 This repository draws from:
 
+### 🌐 Sites
+- [Microsoft Documentation - C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
+- [freeCodeCamp - Foundational C# with Microsoft](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/)
+
+### 📖 Books
+- *Pro C# 10 with .NET 6* by Andrew Troelsen, Phil Japikse
+- *C# Player's Guide 5th Edition* by RB Whitaker
+- *Grokking Algorithms, Second Edition* by Aditya Y. Bhargava
+  
 ### 📺 YouTube Channels
 - [Zoran Horvat](https://www.youtube.com/@zoran-horvat)
 - [Giraffe Academy](https://www.youtube.com/@GiraffeAcademy)
@@ -131,15 +133,6 @@ This repository draws from:
 - [Alex Hyett](https://www.youtube.com/@alexhyettdev)
 - [tutorialsEU](https://www.youtube.com/@tutorialsEUC)
 - ...and more
-
-### 🌐 Sites
-- [Microsoft Documentation - C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
-- [freeCodeCamp - Foundational C# with Microsoft](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/)
-
-### 📖 Books
-- *Pro C# 10 with .NET 6* by Andrew Troelsen, Phil Japikse
-- *C# Player's Guide 5th Edition* by RB Whitaker
-- *Grokking Algorithms, Second Edition* by Aditya Y. Bhargava
 
 ---
 
