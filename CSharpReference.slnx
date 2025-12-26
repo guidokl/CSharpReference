@@ -26,6 +26,8 @@
   </Folder>
   <Folder Name="/04_Algorithms/">
     <Project Path="A01_RecursiveSum/A01_RecursiveSum.csproj" />
+    <Project Path="A02_RecursiveCountListObjects/A02_RecursiveCountListObjects.csproj" Id="631c892a-366e-4e51-adb8-2f82ca437c1e" />
+    <Project Path="A03_RecursiveBiggestNumber/A03_RecursiveBiggestNumber.csproj" Id="8941ba9c-6329-465d-ae20-d46aebc1eb78" />
   </Folder>
   <Folder Name="/05_Snippets/" />
   <Folder Name="/06_Misc/" />

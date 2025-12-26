@@ -9,7 +9,7 @@ int[] arr = [2, 4, 9, 123, 4, 66, 6, 3, 9, 42];
 int sum = 0;
 int stage = 1;
 
-// 0. The "Naive" Approach (Avoid this)
+// 0. First Approach (Avoid this)
 // Problem: This function relies on external variables ('stage', 'sum').
 // It is "impure" and cannot be easily reused or run in parallel threads.
 int SumArr(int[] arr)
@@ -46,7 +46,6 @@ int SumArr1(int[] currentArr)
 Console.WriteLine(SumArr1(arr));
 
 // 2. The Performant Approach (Index-Based)
-// As you are retraining for software development, resource management is key.
 // To avoid copying arrays, we pass the SAME array reference but update a simple integer index.
 // This is very fast and uses minimal memory.
 int SumArr2(int[] data, int index = 0)
