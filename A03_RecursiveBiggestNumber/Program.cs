@@ -1,4 +1,10 @@
-﻿int[] arr = [23, 4, 66, 42, 23, 1, 44];
+﻿// Recursive Search     = Finding an extremum (min/max) by processing one element at a time
+//                        Requires a base case (end of array) to stop execution
+//                        Approach 1 (Accumulator): Carries the "current winner" index forward (Tail Recursion style)
+//                        Approach 2 (Stack-based): Compares current element vs. result of the rest
+//                        Math.Max simplifies the comparison logic by eliminating manual if-else checks
+
+int[] arr = [23, 4, 66, 42, 23, 1, 44];
 
 int ReturnBiggestNum(int[] arr, int i = 1, int b = 0)
 {

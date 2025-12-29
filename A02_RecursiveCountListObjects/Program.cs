@@ -1,5 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// Recursive Traversal  = Iterating through a collection using self-referencing calls
+//                        Slicing (list[1..]) creates a NEW copy every step (High Memory Cost)
+//                        Indexing (i + 1) passes the reference and tracks position (Efficient)
+//                        Space Complexity: Slicing is O(n^2) vs. Indexing which is O(n)
 
 List<string> myList = ["Spaceship", "Laser", "Warp", "Black Hole", "Gamma Ray", "Telport", "Gravity"];
 

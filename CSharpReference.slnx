@@ -29,6 +29,7 @@
     <Project Path="A02_RecursiveCountListObjects/A02_RecursiveCountListObjects.csproj" Id="631c892a-366e-4e51-adb8-2f82ca437c1e" />
     <Project Path="A03_RecursiveBiggestNumber/A03_RecursiveBiggestNumber.csproj" Id="8941ba9c-6329-465d-ae20-d46aebc1eb78" />
     <Project Path="Sort01_BubbleAndSelectionSort/Sort01_BubbleAndSelectionSort.csproj" Id="f5be99f6-fac5-48ef-8fc3-268b2d797a1b" />
+    <Project Path="Sort02_QuickSort/Sort02_QuickSort.csproj" Id="b1c11d39-bf2d-4bcd-96e3-ea13f608e931" />
   </Folder>
   <Folder Name="/05_Snippets/" />
   <Folder Name="/06_Misc/" />

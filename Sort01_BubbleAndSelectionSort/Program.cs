@@ -1,4 +1,10 @@
-﻿int[] array = [97, 3, 76, 55, 8, 7, 12, 34, 54, 1, 54, 7, 17, 61, 41, 77, 7, 85, 5, 69, 99, 2];
+﻿// Sorting Algorithms   = Techniques to arrange data in a specific order (e.g., ascending)
+//                        BubbleSort    = Repeatedly steps through the list, swaps adjacent elements if wrong order
+//                        SelectionSort = Finds the minimum element and places it at the beginning
+//                        Complexity    = Both are O(n^2), generally slow for large datasets
+//                        Swapping      = Using C# Tuples (a, b) = (b, a) is cleaner than temp variables
+
+int[] array = [97, 3, 76, 55, 8, 7, 12, 34, 54, 1, 54, 7, 17, 61, 41, 77, 7, 85, 5, 69, 99, 2];
 
 // Passing a copy to preserve the original array
 // BubbleSort((int[])array.Clone()); // Oldest (requires casting)
