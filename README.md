@@ -4,50 +4,27 @@ A personal C# learning repository containing code examples, snippets, and experi
 
 ## 🎯 Purpose
 
-**Note:** This repository serves as my personal reference and learning workspace. It's primarily organized for my own understanding and workflow, not as a tutorial for others—though you're welcome to explore and use it for your own learning.
-
-This repository serves as a reference guide and practice ground for C# development concepts. Each project is self-contained with detailed head comments explaining core concepts, definitions, and method signatures.
+This repository serves as a reference guide and practice ground for C# development concepts.  It's primarily organized for my own understanding and workflow, not as a tutorial for others - though you're welcome to explore and use it as is.
 
 ## 📁 Project Structure
 
 In Visual Studio organized into virtual solution folders for easy navigation:
 
-| Folder | Category | Description |
-|--------|----------|-------------|
-| **00_Lab** | Lab/Playground | Experimental sandbox for testing |
-| **01_Basics** | String Methods | String manipulation and method overloading |
-| **02_OOP** | OOP Principles | Object-Oriented Programming fundamentals |
-| **03_DebuggingAndExceptions** | Debugging & Exceptions | Exception handling and error management |
-| **04_Algorithms** | Algorithms | Recursive algorithms and computational patterns |
-| **05_Snippets** | Code Snippets | (Reserved for future snippets) |
-| **06_Misc** | Miscellaneous | (Reserved for future misc projects) |
-| **07_ProCSharp** | Core Concepts | Basic I/O, data types, and formatting (from Pro C# book) |
+- 00_Lab
+- 01_Basics
+- 02_OOP
+- 03_DebuggingAndExceptions
+- 04_Algorithms
+- 05_Snippets
+- 06_Misc
+- 07_ProCSharp
 
 ---
 
 ## 🛠️ Technical Details
 
 - **Target Framework:** .NET 10
-- **Language Version:** C# (latest)
-
----
-
-## 📖 Code Documentation Style
-
-Each file contains **head comments** at the top explaining:
-
-```csharp
-// Concept Name        = Brief definition
-//                       Additional details or behavior
-//                       Related concepts or best practices
-```
-
-Example:
-```csharp
-// Polymorphism         = Greek word that means to have "Many Forms".
-//                        Treating different objects as their common base type
-//                        Objects can be identified by more than one type
-```
+- **Language Version:** C# 14
 
 ---
 
