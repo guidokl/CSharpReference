@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// Interfaces           = A contract that defines a set of behaviors (Methods/Properties)
+//                        Defines WHAT a class must do, but not HOW to do it
+//                        Classes can implement multiple interfaces (unlike class inheritance)
+//                        Interfaces are reference types
+//                        Interfaces can contain methods, properties, events, and indexers
+//                        Interfaces cannot contain fields or implementation details
 
 namespace P10_Interfaces
 {
-    // Interfaces           = A contract that defines a set of behaviors (Methods/Properties)
-    //                        Defines WHAT a class must do, but not HOW to do it
-    //                        Classes can implement multiple interfaces (unlike class inheritance)
-    //                        Interfaces are reference types
-    //                        Interfaces can contain methods, properties, events, and indexers
-    //                        Interfaces cannot contain fields or implementation details
 
     internal class Program
     {

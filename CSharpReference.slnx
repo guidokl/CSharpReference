@@ -8,6 +8,7 @@
     <Project Path="B03_IndexOfAny/B03_IndexOfAny.csproj" Id="3bfe484d-23da-4d02-9cff-b96800578252" />
     <Project Path="B04_RemoveAndReplace/B04_RemoveAndReplace.csproj" Id="20b1129a-28e0-4b01-ad51-7e5b1ef53722" />
     <Project Path="B05_MethodOverloading/B05_MethodOverloading.csproj" Id="73ceb8a2-62b2-477b-bc1c-ae11095f4ed2" />
+    <Project Path="B06_YieldReturn/B06_YieldReturn.csproj" Id="981e9406-0460-414a-a674-6fc492a1b2eb" />
   </Folder>
   <Folder Name="/02_OOP/">
     <Project Path="P01_StaticClassesAndMethods/P01_StaticClassesAndMethods.csproj" Id="c079b73b-87a3-4fee-86d7-fa6264cd8a52" />
