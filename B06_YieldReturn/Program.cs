@@ -30,7 +30,7 @@ static IEnumerable<string> GetStringValues()
 // --- Example 2
 Console.WriteLine("\n--- Example 2 ---");
 
-IEnumerable<int> numbers = GetEvenNumbers(10);
+IEnumerable<int> numbers = GetEvenNumbersLazy(10);
 
 foreach (int number in numbers)
 {
@@ -40,7 +40,7 @@ foreach (int number in numbers)
 // 1. Deferred Execution (Lazy)
 // The method returns immediately with an iterator. 
 // The loop inside only runs when the caller (e.g., a foreach loop) asks for data.
-static IEnumerable<int> GetEvenNumbers(int max)
+static IEnumerable<int> GetEvenNumbersLazy(int max)
 {
     for (int i = 0; i < max; i++)
     {
@@ -54,12 +54,12 @@ static IEnumerable<int> GetEvenNumbers(int max)
 // 2. Immediate Execution (Eager)
 // This approach calculates ALL values and stores them in memory before returning anything.
 // For large datasets, this causes high memory pressure and initial delay.
-//static IEnumerable<int> GetEvenNumbers(int max)
-//{
-//    List<int> numbers = new List<int>();
-//    for (int i = 0; i < max; i++)
-//    {
-//        if (i % 2 == 0) numbers.Add(i);
-//    }
-//    return numbers;
-//}
+static IEnumerable<int> GetEvenNumbersEager(int max)
+{
+    List<int> numbers = new List<int>();
+    for (int i = 0; i < max; i++)
+    {
+        if (i % 2 == 0) numbers.Add(i);
+    }
+    return numbers;
+}
