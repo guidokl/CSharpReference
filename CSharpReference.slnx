@@ -32,9 +32,12 @@
     <Project Path="Sort01_BubbleAndSelectionSort/Sort01_BubbleAndSelectionSort.csproj" Id="f5be99f6-fac5-48ef-8fc3-268b2d797a1b" />
     <Project Path="Sort02_QuickSort/Sort02_QuickSort.csproj" Id="b1c11d39-bf2d-4bcd-96e3-ea13f608e931" />
   </Folder>
-  <Folder Name="/05_Snippets/" />
-  <Folder Name="/06_Misc/" />
-  <Folder Name="/07_ProCSharp/">
+  <Folder Name="/05_RegExAndText/">
+    <Project Path="RE01_RegExBasics/RE01_RegExBasics.csproj" Id="991a12d5-49ab-4e5b-8099-473f8d7941f4" />
+  </Folder>
+  <Folder Name="/06_Snippets/" />
+  <Folder Name="/07_Misc/" />
+  <Folder Name="/08_ProCSharp/">
     <Project Path="C3.1_Args_and_EnvDetails/C3.1_Args_and_EnvDetails.csproj" />
     <Project Path="C3.2_BasicConsoleIO/C3.2_BasicConsoleIO.csproj" />
     <Project Path="C3.3_FormattingNumericalData/C3.3_FormattingNumericalData.csproj" />
