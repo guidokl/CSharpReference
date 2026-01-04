@@ -34,6 +34,7 @@
   </Folder>
   <Folder Name="/05_RegExAndText/">
     <Project Path="RE01_RegExBasics/RE01_RegExBasics.csproj" Id="991a12d5-49ab-4e5b-8099-473f8d7941f4" />
+    <Project Path="RE02_RegExWithFile/RE02_RegExWithFile.csproj" Id="a29f104d-8ef2-49ea-8762-866ebe37f79c" />
   </Folder>
   <Folder Name="/06_Snippets/" />
   <Folder Name="/07_Misc/" />
@@ -45,5 +46,6 @@
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
+    <File Path="RegExReference.txt" />
   </Folder>
 </Solution>

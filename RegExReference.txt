@@ -1,0 +1,109 @@
+/*
+================================================================================
+  .NET REGULAR EXPRESSIONS (System.Text.RegularExpressions) - QUICK REFERENCE
+================================================================================
+  Usage: 
+  1. Modern (C# 7+):   Regex.IsMatch(input, @"pattern", options, timeout);
+  2. High-Perf (C# 11+): [GeneratedRegex] partial method (Compile-time generation).
+  
+  BEST PRACTICES:
+  - ALWAYS use timeouts (TimeSpan.FromSeconds(1)) to prevent ReDoS attacks.
+  - Use Verbatim strings @"..." to avoid double escaping backslashes (e.g. @"\\" vs "\\\\").
+  - Prefer [GeneratedRegex] for static patterns in hot paths.
+
+--------------------------------------------------------------------------------
+  1. CHARACTER CLASSES & ANCHORS
+--------------------------------------------------------------------------------
+  .          : Any char except \n (unless Singleline mode)
+  \d | \D    : Digit [0-9] | Non-digit
+  \w | \W    : Word char [a-zA-Z0-9_] | Non-word char
+  \s | \S    : Whitespace [ \t\r\n] | Non-whitespace
+  \b | \B    : Word boundary (start/end of word) | Non-word boundary
+  ^  | $     : Start/End of string (or line if Multiline mode)
+  \A | \z    : Start/End of string (ignores Multiline mode)
+  [...]      : Set (e.g., [aeiou])
+  [^...]     : Negated Set (e.g., [^0-9] any non-digit)
+  [a-z]      : Range (lowercase a to z)
+
+--------------------------------------------------------------------------------
+  2. QUANTIFIERS (Greedy by default)
+--------------------------------------------------------------------------------
+  * : 0 or more
+  +          : 1 or more
+  ?          : 0 or 1 (Optional)
+  {n}        : Exactly n times
+  {n,}       : n or more times
+  {n,m}      : Between n and m times
+  
+  -- LAZY QUANTIFIERS (Stops as early as possible) --
+  *?  +?  ??  {n,m}?   (Append '?' to make any quantifier lazy)
+
+--------------------------------------------------------------------------------
+  3. GROUPING & LOOKAROUNDS
+--------------------------------------------------------------------------------
+  (exp)        : Capture group (indexed 1, 2...)
+  (?<name>exp) : Named capture group (access via match.Groups["name"])
+  (?:exp)      : Non-capturing group (logical grouping only)
+  
+  (?=exp)      : Positive Lookahead (Next chars must match exp, no consume)
+  (?!exp)      : Negative Lookahead (Next chars must NOT match exp)
+  (?<=exp)     : Positive Lookbehind (Prev chars must match exp)
+  (?<!exp)     : Negative Lookbehind (Prev chars must NOT match exp)
+  
+  (?>exp)      : Atomic group (No backtracking once matched)
+
+--------------------------------------------------------------------------------
+  4. ALTERNATION & SUBSTITUTION
+--------------------------------------------------------------------------------
+  a|b          : Match 'a' OR 'b'
+  $1, $2       : Backreference to group # inside Replacement String
+  ${name}      : Backreference to named group inside Replacement String
+  $&           : The entire matched string
+
+--------------------------------------------------------------------------------
+  5. REGEX OPTIONS (System.Text.RegularExpressions.RegexOptions)
+--------------------------------------------------------------------------------
+  IgnoreCase      : Case-insensitive matching.
+  Multiline       : ^ and $ match start/end of *lines*, not just string.
+  Singleline      : . (dot) matches *everything* including \n.
+  ExplicitCapture : Only named groups (?<n>...) are captured.
+  Compiled        : Compiles to MSIL (Startup cost++, Runtime speed+).
+                    *Prefer [GeneratedRegex] in .NET 7+.*
+  NonBacktracking : Linear time complexity O(n). Guarantees no catastrophic 
+                    backtracking. (New in .NET 7).
+
+--------------------------------------------------------------------------------
+  6. COMMON METHODS
+--------------------------------------------------------------------------------
+  bool b = Regex.IsMatch(input, pattern);
+  
+  Match m = Regex.Match(input, pattern);
+  if (m.Success) { 
+      var val = m.Groups[1].Value; 
+      var named = m.Groups["id"].Value; 
+  }
+
+  // Iterating all matches
+  foreach (Match m in Regex.Matches(input, pattern)) { ... }
+
+  // Replacing
+  string s = Regex.Replace(input, pattern, replacement);
+  
+  // Splitting
+  string[] parts = Regex.Split(input, pattern);
+
+--------------------------------------------------------------------------------
+  7. MODERN IDIOM: SOURCE GENERATORS (C# 11 / .NET 7+)
+--------------------------------------------------------------------------------
+  // Add 'partial' to class/struct. 
+  // Engine generates optimized code at compile time.
+  // Replaces 'new Regex("", RegexOptions.Compiled)'
+
+  public partial class Parser 
+  {
+      [GeneratedRegex(@"^\d{3}-\d{2}-\d{4}$", RegexOptions.NonBacktracking, 1000)]
+      private static partial Regex SsnRegex();
+
+      public bool Validate(string input) => SsnRegex().IsMatch(input);
+  }
+*/
